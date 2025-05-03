@@ -151,6 +151,7 @@ TW_USE_LEGACY_BATTERY_SERVICES := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone50/temp"
 #TW_CUSTOM_BATTERY_PATH := "/sys/class/power_supply/battery/capacity"
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
 TW_DEVICE_VERSION := Maxim_&_Jamie
 MAINTAINER := Maxim_&_Jamie
 
