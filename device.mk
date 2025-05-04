@@ -23,3 +23,6 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Attempt to put the download mode flag as the flag will not register in boardconfig
+TW_HAS_DOWNLOAD_MODE := true 
